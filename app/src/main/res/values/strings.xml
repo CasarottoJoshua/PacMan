@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PacMan</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="NuovaPassword">Nuova Password</string>
+    <string name="ConfermaPassword">Conferma Password</string>
+    <string name="registrati" />
+
+
+    <string name="information_text">
+        • Obiettivo del gioco: Il giocatore controlla Pac-Man, un personaggio che deve mangiare tutti i pallini dentro un labirinto per completare il livello.\n\n
+        • Fantasmi: Quattro fantasmi (Blinky, Pinky, Inky e Clyde) si muovono nel labirinto cercando di catturare Pac-Man. Se un fantasma tocca Pac-Man, il giocatore perde.\n\n
+        • Tempo: È presente un cronometro che gestisce il tempo impiegato per superare il livello o per venire eliminati. Pac-Man deve completare il livello nel minor tempo possibile.\n\n
+        • Punteggio: Nella tabella dei punteggi, il giocatore può visualizzare il punteggio dei primi 10 utenti con il punteggio più alto e il tempo impiegato per completare il livello.\n\n
+    </string>
+</resources>
