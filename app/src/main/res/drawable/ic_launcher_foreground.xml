@@ -1,0 +1,20 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="250dp"
+    android:height="250dp"
+    android:viewportWidth="500"
+    android:viewportHeight="500">
+    <!-- Disegno del corpo di Pac-Man -->
+    <path
+        android:fillColor="#FFEB3B"
+        android:fillType="nonZero"
+        android:pathData="M250,250 L400,250 A150,150 0 1,0 250,400 Z" />
+
+    <!-- Disegno del bordo del corpo di Pac-Man -->
+    <path
+        android:fillColor="#ffd400"
+        android:strokeColor="#000000"
+        android:strokeWidth="8"
+        android:pathData="M250,250 L400,250 A150,150 0 1,0 250,400 Z" />
+
+</vector>

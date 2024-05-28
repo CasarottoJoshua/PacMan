@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".schermata7">
+
+    <!-- Bottoni per frutti -->
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/schermata7"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/buttonSfondo4"
+        android:layout_width="59dp"
+        android:layout_height="59dp"
+        android:backgroundTint="#00000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.848"
+        app:layout_constraintStart_toEndOf="@+id/buttonSfondo3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6449" />
+
+    <Button
+        android:id="@+id/buttonSfondo5"
+        android:layout_width="59dp"
+        android:layout_height="59dp"
+        android:backgroundTint="#00000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.936"
+        app:layout_constraintStart_toEndOf="@+id/buttonSfondo4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6449" />
+
+    <Button
+        android:id="@+id/buttonFrutto3"
+        android:layout_width="65dp"
+        android:layout_height="68dp"
+        android:backgroundTint="#00000000"
+        android:textColorLink="#00000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.770"
+        app:layout_constraintStart_toEndOf="@+id/buttonFrutto2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3525" />
+
+    <Button
+        android:id="@+id/buttonFrutto4"
+        android:layout_width="65dp"
+        android:layout_height="68dp"
+        android:backgroundTint="#00000000"
+        android:textColorLink="#00000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.859"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3525" />
+
+    <Button
+        android:id="@+id/buttonFrutto5"
+        android:layout_width="65dp"
+        android:layout_height="68dp"
+        android:backgroundTint="#00000000"
+        android:textColorLink="#00000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintStart_toEndOf="@+id/buttonFrutto4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3525" />
+
+
+    <!-- Bottoni per sfondi -->
+
+    <Button
+        android:id="@+id/buttonFrutto1"
+        android:layout_width="67dp"
+        android:layout_height="67dp"
+        android:backgroundTint="#00000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.592"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3525" />
+
+    <ImageView
+        android:id="@+id/imageViewCombinata"
+        android:layout_width="144dp"
+        android:layout_height="144dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.436"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.488"
+        app:srcCompat="@drawable/frutto_grigio1" />
+
+    <Button
+        android:id="@+id/buttonFrutto2"
+        android:layout_width="67dp"
+        android:layout_height="67dp"
+        android:backgroundTint="#00000000"
+        android:textColorLink="#00000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.68"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3525" />
+
+    <Button
+        android:id="@+id/BottoneX"
+        android:layout_width="39dp"
+        android:layout_height="31dp"
+        android:backgroundTint="#00000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.102" />
+
+    <Button
+        android:id="@+id/BottoneContinua7"
+        android:layout_width="160dp"
+        android:layout_height="46dp"
+        android:backgroundTint="#00000000"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+        app:layout_constraintEnd_toEndOf="@+id/imageView5"
+        app:layout_constraintHorizontal_bias="0.721"
+        app:layout_constraintStart_toStartOf="@+id/imageView5"
+        app:layout_constraintTop_toTopOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.849" />
+
+    <Button
+        android:id="@+id/buttonSfondo1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#00000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.587"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6447" />
+
+    <Button
+        android:id="@+id/buttonSfondo2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#00000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6736"
+        app:layout_constraintStart_toEndOf="@+id/buttonSfondo1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6449" />
+
+    <Button
+        android:id="@+id/buttonSfondo3"
+        android:layout_width="59dp"
+        android:layout_height="59dp"
+        android:backgroundTint="#00000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.761"
+        app:layout_constraintStart_toEndOf="@+id/buttonSfondo2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6449" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
